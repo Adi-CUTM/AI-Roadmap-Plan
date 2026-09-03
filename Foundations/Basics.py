@@ -16,7 +16,7 @@
 #     print(str(i), end="")
 
 
-# Calculator Program #
+######################################################## Calculator Program ######################################################################
 
 # print("Welcome to the calculator program! \n")
 
@@ -64,7 +64,7 @@
 
     
 
-else:
-    print("Exiting the calculator program. Goodbye!")  
+# else:
+#     print("Exiting the calculator program. Goodbye!")  
 
     
