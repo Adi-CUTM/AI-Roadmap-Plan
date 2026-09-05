@@ -32,4 +32,6 @@
 # print(name.split(" ")[0].upper() + " " + name.split(" ")[1].capitalize())
 
 
+# name = "kanha"
 
+# print(name.isalnum())
