@@ -35,3 +35,4 @@
 # name = "kanha"
 
 # print(name.isalnum()) # Ceck if the striing is alphanumeric or not
+
