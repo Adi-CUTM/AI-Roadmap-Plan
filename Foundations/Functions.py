@@ -32,9 +32,10 @@
 
 # a = int(input("enter first number: "))
 # b = int(input("enter second number: "))
+# print(isgreater(a, b))
 
 # while a != 0 or b != 0:
-#     print(isgreater(a, b))
+    
 #     a = int(input("enter first number: "))
 #     b = int(input("enter second number: "))
 
@@ -92,7 +93,8 @@
 #     for option in header(menu=" "):
 #      print(option)
 #     choice = str(input("Enter you choice: "))
-   
+
+   ####################################################### // ######################################################################
 
 # def name(fname , mname , lname):                                          # Throws Error bcz required arugement is needed 
 #     print("hello " , fname , mname , lname)
@@ -104,9 +106,10 @@
 # def average(*numbers):
     
 #     for i in numbers:
-#      print(f"Average is {sum(numbers)/len(numbers)}")
+#      result = sum(numbers) / len(numbers)
+#     return result
 
-# average(5 , 6)
+# print(average(5 , 6))
 
 
 # def names(**names):
@@ -120,3 +123,18 @@
 
 # print(name("kanha" , "Aditya" , "Singh"))
 
+
+# def sum_range(*args):                                                     # args are tuple
+
+#     result = sum(args)
+#     return result
+
+# print(sum_range(1 , 2 , 3))
+
+
+# def job_role(**kwargs):                                                   # kwargs are dict
+
+#     for key, value in kwargs.items():
+#         print(f"{key}:{value}")
+
+# job_role(name="Alice", age=30, job="Engineer")
