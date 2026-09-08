@@ -1,4 +1,4 @@
-my_tup = (1 , 2 , 3 , 4 , "kanha" , "Aditya" , 22 , 25 , 56 , 58 , 89 , 78 , 56 , 89 )
+# my_tup = (1 , 2 , 3 , 4 , "kanha" , "Aditya" , 22 , 25 , 56 , 58 , 89 , 78 , 56 , 89 )
 
 # print(my_tup[0])
 # print(my_tup[2])

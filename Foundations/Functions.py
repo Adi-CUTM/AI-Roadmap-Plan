@@ -53,11 +53,11 @@
 
 # print("Please Choose an Operation From Below\n")
 
-# def header(menu):
+# def header():
 #     menu = ["1. Add", "2. Subtract", "3. Multiply", "4. Divide", "5. Exit"]
 #     return menu
 
-# for option in header(menu=" "):
+# for option in header():
 #      print(option)
 
 
@@ -90,7 +90,7 @@
 #     else:
 #         print("Choose a valid option from menu\n")
 
-#     for option in header(menu=" "):
+#     for option in header():
 #      print(option)
 #     choice = str(input("Enter you choice: "))
 
@@ -107,9 +107,10 @@
     
 #     for i in numbers:
 #      result = sum(numbers) / len(numbers)
-#     return result
 
-# print(average(5 , 6))
+#     print(f"the result is : {result}")
+
+# average(5 ,6 ,7 ,8)
 
 
 # def names(**names):
@@ -138,3 +139,25 @@
 #         print(f"{key}:{value}")
 
 # job_role(name="Alice", age=30, job="Engineer")
+
+
+# def factorial():
+#     num = int(input("enter a number"))
+#     fact = 1
+#     for i in range( 1 , num + 1):
+#         fact = fact * i
+#     return fact
+
+# print(factorial())
+
+
+# def factorial():
+#     num = int(input("enter the number: ").strip())
+#     fact = 1
+#     for i in range(1 , num+1):
+#         fact*=i
+#     print(f"the factorial of {num} is {fact}")
+
+# factorial()
+
+
