@@ -14,3 +14,11 @@ new_set = [3 , 2 ,5 , 6 ,7 ,8,9 , "kanha"]
 # set.difference_update(new_set)
 
 # print(set)
+
+# set.discard(2)
+# print(set)
+
+# print(set.intersection(new_set))
+
+# set.intersection_update(new_set)
+# print(set)
