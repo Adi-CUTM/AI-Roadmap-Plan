@@ -1,18 +1,20 @@
-dict = {
-    "name":"kanha",
-    "Roll NO": "220301120215",
-    "section":"D",
-    "Stream":"CSE",
-    "Program":"BTECH"
+# dict = {
+#     "name":"kanha",
+#     "Roll NO": "220301120215",
+#     "section":"D",
+#     "Stream":"CSE",
+#     "Program":"BTECH"
     
     
-}
+# }
 
-dict1 = {
-    111:"Aditya",
-    112:"Hrithik",
-    522:"Tanmay"
-}
+
+
+# dict1 = {
+#     111:"Aditya",
+#     112:"Hrithik",
+#     522:"Tanmay"
+# }
 
 # print(dict)
 # print(dict["name"],dict["Roll NO"])
