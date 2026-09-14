@@ -69,12 +69,4 @@
 # print(lst)
 
 
-# def my_list(lst):
-#     for i in range(len(lst)):
-#         print(f"index {i} holds {lst[i]}")
-
-# items = [ 1 , 2 , 3 , 4]
-
-# my_list(items)
-
 
