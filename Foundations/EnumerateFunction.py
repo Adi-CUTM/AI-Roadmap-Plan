@@ -1,6 +1,6 @@
 # name = "aditya"
 
-# for index , i in enumerate (name):
+# for index ,  i in enumerate(name):
 #     if(index == 2):
 #         print(f"skip for {i}")
 #         continue

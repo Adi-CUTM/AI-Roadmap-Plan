@@ -26,12 +26,11 @@
 # for i in range(1 , 12):
 #     if i == 7:
 #         print(f"skip here for {i}")
-#         continue  
-#     print(i)                    ## skip when i == 7 then print 8,9,10,11
-#     if i == 10:
+#         continue                      ## skip when i == 7 then print 8,9,10,11
+#     elif i == 10:
 #         print(f"exit here for {i}")
 #         break                         ## Exit from the loop
-
+#     print(i)
 
 
 # for i in range(1 , 12):

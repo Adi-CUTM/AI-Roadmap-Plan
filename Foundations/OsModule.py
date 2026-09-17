@@ -43,11 +43,9 @@
 #             print(f"file renamed from {old_path} -> {new_path}")
 #         else:
 #             raise FileNotFoundError(f"Cannot rename {old_path}; file not found")
-#         continue
 
 # except OSError as e:
 #     print(f" Rename cancelled: {e}")
-
 
 # folders= os.listdir("TEST")
 
