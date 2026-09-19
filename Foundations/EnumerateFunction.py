@@ -1,10 +1,11 @@
 # name = "aditya"
 
-# for index ,  i in enumerate(name):
-#     if(index == 2):
-#         print(f"skip for {i}")
+# for index , char in enumerate(name):
+#     if (char == 'd'):
+#         print(f"skip for {char}")
 #         continue
-#     print(i)
+#     print(f"{index} : {char}")
+
 
 # Enumlist = ["kanha" , "TCS" , "Google"]
 

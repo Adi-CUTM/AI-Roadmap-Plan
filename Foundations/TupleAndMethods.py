@@ -1,5 +1,10 @@
 # my_tup = (1 , 2 , 3 , 4 , "kanha" , "Aditya" , 22 , 25 , 56 , 58 , 89 , 78 , 56 , 89 )
 
+# for i in range(len(my_tup)):
+#     print(my_tup[i])
+    
+
+
 # print(my_tup[0])
 # print(my_tup[2])
 

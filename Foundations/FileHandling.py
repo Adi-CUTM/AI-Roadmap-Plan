@@ -24,7 +24,7 @@
 # with open(r"E:\Ai_Roadmap\Foundations\Fileio.txt" ,'r') as file:
 #     file.seek(10)
 
-#     data = file.read(10)
+#     data = file.read(11)
 #     print(data)
 #     print(file.tell())
 

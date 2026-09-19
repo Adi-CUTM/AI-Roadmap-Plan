@@ -30,19 +30,19 @@
 #     else:
 #         return (f"{a} and {b} are equal")
 
-# a = int(input("enter first number: "))
-# b = int(input("enter second number: "))
-# print(isgreater(a, b))
+# num1 = int(input("enter first number: "))
+# num2 = int(input("enter second number: "))
+# print(isgreater(num1 , num2))
 
-# while a != 0 or b != 0:
+# while num1 != 0 or num2 != 0:
     
-#     a = int(input("enter first number: "))
-#     b = int(input("enter second number: "))
+#     num1 = int(input("enter first number: "))
+#     num2 = int(input("enter second number: "))
 
-# def calculate(a=8 , b = 8):
+# def calculate(a , b):
 #     print(f"the addition is {a + b}")
 
-# calculate()
+# calculate(a = 5 , b = 6)
 
 
 ####################################################### Calculator Using Function ######################################################################
@@ -160,4 +160,13 @@
 
 # factorial()
 
+
+# def square(*num):
+#     result = []
+#     for i in range(len(num)):
+#         result.append(num[i] * num[i])
+#     return result
+    
+
+# print(square(1 ,2 ,3 , 4))
 
