@@ -161,12 +161,12 @@
 # factorial()
 
 
-# def square(*num):
-#     result = []
-#     for i in range(len(num)):
-#         result.append(num[i] * num[i])
-#     return result
-    
+def square(*num):
+    result = []
+    for i in range(len(num)):
+      result.append(num[i] * num[i])
+    return result
+    print(f"the square result of the numbers is {result}")
 
-# print(square(1 ,2 ,3 , 4))
+print(square(1 ,2 ,3 , 4))
 
