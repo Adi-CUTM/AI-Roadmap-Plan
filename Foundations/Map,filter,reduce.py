@@ -1,7 +1,7 @@
 # def cube(x):
 #     return x*x*x
 
-l = [5 , 2 , 3 , 4]
+# l = [5 , 2 , 3 , 4]
 
 # newl = list(map(cube , l))
 # print(newl)

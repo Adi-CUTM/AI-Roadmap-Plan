@@ -51,20 +51,9 @@
 
 # print("Welcome To The Calculator Program Using Function \n".strip())
 
-# print("Please Choose an Operation From Below\n")
-
 # def header():
 #     menu = ["1. Add", "2. Subtract", "3. Multiply", "4. Divide", "5. Exit"]
 #     return menu
-
-# for option in header():
-#      print(option)
-
-
-# choice =str(input("Enter you choice:"))
-
-# num1 = int(input("Enter the first number: "))
-# num2 = int(input("Enter the second number: "))
 
 # def addition(num1 , num2):
 #     return num1 + num2
@@ -78,21 +67,31 @@
 #     else:
 #         return num1 / num2
 
-# while choice !="5":
-#     if choice == "1":
-#         print(f"addition of {num1} + {num2} is {addition(num1 , num2)}")
-#     elif choice == "2":
-#         print(f"subtraction of {num1} - {num2} is {substraction(num1 , num2)}")
-#     elif choice == "3":
-#         print(f"multiplication of {num1} * {num2} is {multiplication(num1 , num2)}")
-#     elif choice  == "4":
-#         print(f"division of {num1} / {num2} is {divison(num1 , num2)}")
-#     else:
-#         print("Choose a valid option from menu\n")
-
+# while True:
+#     print("\nPlease Choose an Operation From Below:")
 #     for option in header():
-#      print(option)
-#     choice = str(input("Enter you choice: "))
+#         print(option)
+        
+#     choice = input("Enter your choice: " .strip())
+
+#     if choice == "5":
+#         print("Exiting the Calculator Program. Goodbye!")
+#         break
+        
+#     if choice in ["1", "2", "3", "4"]:
+#         num1 = int(input("Enter the first number: "))
+#         num2 = int(input("Enter the second number: "))
+        
+#         if choice == "1":
+#             print(f"Addition of {num1} + {num2} is {addition(num1, num2)}")
+#         elif choice == "2":
+#             print(f"Subtraction of {num1} - {num2} is {substraction(num1, num2)}")
+#         elif choice == "3":
+#             print(f"Multiplication of {num1} * {num2} is {multiplication(num1 , num2)}")
+#         elif choice == "4":
+#             print(f"Division of {num1} / {num2} is {divison(num1, num2)}")
+#     else:
+#         print("Invalid choice! Please choose a valid option from the menu.")
 
    ####################################################### // ######################################################################
 
@@ -151,22 +150,22 @@
 # print(factorial())
 
 
-# def factorial():
-#     num = int(input("enter the number: ").strip())
+# def factorial(num):
+    
 #     fact = 1
 #     for i in range(1 , num+1):
 #         fact*=i
-#     print(f"the factorial of {num} is {fact}")
+#     return (f"the factorial of {num} is {fact}")
 
-# factorial()
+# number = int(input("enter a number to check: "))
+# print(factorial(number))
 
 
-def square(*num):
-    result = []
-    for i in range(len(num)):
-      result.append(num[i] * num[i])
-    return result
-    print(f"the square result of the numbers is {result}")
+# def square(*num):
+#     result = []
+#     for i in range(len(num)):
+#       result.append(num[i] * num[i])
+#     return result
 
-print(square(1 ,2 ,3 , 4))
+# print(square(1 ,2 ,3 , 4))
 

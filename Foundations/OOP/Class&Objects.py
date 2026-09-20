@@ -8,16 +8,16 @@ class railwayform:
         print(f"{self.name}'s destination is {self.Destination}")
 
 a = railwayform()
-b= railwayform()
+# b= railwayform()
 
 
-a.name = "Kanha"
-a.date = "08 / 01 / 2005"
-a.info()
+# a.name = "Kanha"
+# a.date = "08 / 01 / 2005"
+# a.info()
 
-b.name = "Nikita"
-b.Destination = "Kolkata"
+# b.name = "Nikita"
+# b.Destination = "Kolkata"
 
-b.info()
+# b.info()
 # print(a.name , a.date)
 
