@@ -24,7 +24,12 @@
 
 # choice = str(input("Please Select an Operation : \n"))
 
-# while choice != "5":
+# while True:
+
+#     if choice == "5":
+#             print("Exiting the Calculator Program. Goodbye!")
+#             break
+    
 
 #     if choice == "1":
 #         num1 = float(input("Enter first number: "))
@@ -57,10 +62,9 @@
 #         print("Invalid choice. Please select a valid operation from the menu.\n")
 
 #     choice = str(input("Please Select an Operation : \n"))
-
+    
     
 
-# else:
-#     print("Exiting the calculator program. Goodbye!")  
+
 
     
