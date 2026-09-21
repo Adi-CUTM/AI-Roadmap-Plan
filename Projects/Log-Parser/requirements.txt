@@ -1,0 +1,8 @@
+pydantic>=2.7,<3.0
+pyyaml>=6.0,<7.0
+typer>=0.12,<0.13
+rich>=13.7,<14.0
+watchdog>=4.0,<5.0
+geoip2>=4.8,<5.0
+requests>=2.31,<3.0
+python-dateutil>=2.9,<3.0
