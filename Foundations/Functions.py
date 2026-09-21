@@ -104,10 +104,9 @@
 
 # def average(*numbers):
     
-#     for i in numbers:
-#      result = sum(numbers) / len(numbers)
+#    result = sum(numbers) / len(numbers)
 
-#     print(f"the result is : {result}")
+#    print(f"the result is : {result}")
 
 # average(5 ,6 ,7 ,8)
 

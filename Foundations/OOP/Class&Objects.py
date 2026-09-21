@@ -1,14 +1,14 @@
-class railwayform:
-    name = "Aditya"
-    age = 19
-    Destination = "Bihar"
-    date = "08 / 01 / 2005"
+# class railwayform:
+#     name = "Aditya"
+#     age = 19
+#     Destination = "Bihar"
+#     date = "08 / 01 / 2005"
 
-    def info(self):
-        print(f"{self.name}'s destination is {self.Destination}")
+#     def info(self):
+#         print(f"{self.name}'s destination is {self.Destination}")
 
-a = railwayform()
-# b= railwayform()
+# a = railwayform()
+# # b= railwayform()
 
 
 # a.name = "Kanha"

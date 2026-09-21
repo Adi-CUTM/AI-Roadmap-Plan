@@ -16,22 +16,21 @@
 
 # class person:
 
-#     def __init__(self , n , o):
-#         self.name = n                                                
-#         self.occupation = o
+#     def __init__(self , name , occupation):
+#         self.name = name                                                
+#         self.occupation = occupation
 
 #     def info(self):
 #         print(f"{self.name} is a {self.occupation}")
 
-# a = person("Aditya" , "Cybersecurity Student")
-# # print(f"{a.name} is a {a.occupation}")
+# # a = person("Aditya" , "Cybersecurity Student")
+# print(f"{a.name} is a {a.occupation}")
 
 # b= person("Hrithik" , "Data Science Instructor")
-# # print(f"{b.name} is a {b.occupation}")
+# print(f"{b.name} is a {b.occupation}")
 
-
-# # a.info()
-# # b.info()
+# a.info() 
+# b.info()
 
 
 # @Default Constructor
