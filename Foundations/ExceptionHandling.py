@@ -10,9 +10,8 @@
 # try:
 #     a = [6 , 4 , 5]
 
-#     # print(a.index(1))
-#     print(a[6])
-# except IndexError as e:
+#     print(a.index(1))
+# except ValueError as e:
 #     print(f"value is not found {e}")
 
 # except ValueError:

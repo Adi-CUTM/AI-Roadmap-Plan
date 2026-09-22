@@ -15,3 +15,4 @@ ROLLBACK;
 SELECT * FROM test_db.users;
 
 delete from users where id = 5;
+
