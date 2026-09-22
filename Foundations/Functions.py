@@ -68,30 +68,37 @@
 #         return num1 / num2
 
 # while True:
-#     print("\nPlease Choose an Operation From Below:")
-#     for option in header():
-#         print(option)
+#     try:
+#         print("\nPlease Choose an Operation From Below:")
+#         for option in header():
+#             print(option)
+                
+#         choice = input("Enter your choice: ").strip()
         
-#     choice = input("Enter your choice: " .strip())
+#         if choice == "5":
+#             print("Exiting the Calculator Program. Goodbye!")
+#             break
+                    
+#         if choice not in ["1", "2", "3", "4"]:
+#             num1 = float(input("Enter the first number: "))
+#             num2 = float(input("Enter the second number: "))
+            
+#             if choice == "1":
+#                 print(f"Addition of {num1} + {num2} is {addition(num1, num2)}")
+#             elif choice == "2":
+#                 print(f"Subtraction of {num1} - {num2} is {substraction(num1, num2)}")
+#             elif choice == "3":
+#                 print(f"Multiplication of {num1} * {num2} is {multiplication(num1, num2)}")
+#             elif choice == "4":
+#                 print(f"Division of {num1} / {num2} is {divison(num1, num2)}")
+#         else:
+#             ("Invalid choice! Please choose a valid option from the menu.")
+            
+#     except ValueError as e:
+#         print("Invalid input! Please enter numbers only.", e)
 
-#     if choice == "5":
-#         print("Exiting the Calculator Program. Goodbye!")
-#         break
-        
-#     if choice in ["1", "2", "3", "4"]:
-#         num1 = int(input("Enter the first number: "))
-#         num2 = int(input("Enter the second number: "))
-        
-#         if choice == "1":
-#             print(f"Addition of {num1} + {num2} is {addition(num1, num2)}")
-#         elif choice == "2":
-#             print(f"Subtraction of {num1} - {num2} is {substraction(num1, num2)}")
-#         elif choice == "3":
-#             print(f"Multiplication of {num1} * {num2} is {multiplication(num1 , num2)}")
-#         elif choice == "4":
-#             print(f"Division of {num1} / {num2} is {divison(num1, num2)}")
-#     else:
-#         print("Invalid choice! Please choose a valid option from the menu.")
+
+    
 
    ####################################################### // ######################################################################
 

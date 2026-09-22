@@ -1,6 +1,0 @@
-detection:
-  brute_force:
-    threshold: 5
-    window_seconds: 60
-  impossible_travel:
-    max_window_minutes: 60
