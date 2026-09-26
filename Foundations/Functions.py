@@ -51,7 +51,7 @@
 
 # print("Welcome To The Calculator Program Using Function \n".strip())
 
-# def header():
+# def header(menu):
 #     menu = ["1. Add", "2. Subtract", "3. Multiply", "4. Divide", "5. Exit"]
 #     return menu
 
@@ -70,7 +70,7 @@
 # while True:
 #     try:
 #         print("\nPlease Choose an Operation From Below:")
-#         for option in header():
+#         for option in header(menu=None):
 #             print(option)
                 
 #         choice = input("Enter your choice: ").strip()
@@ -79,7 +79,7 @@
 #             print("Exiting the Calculator Program. Goodbye!")
 #             break
                     
-#         if choice not in ["1", "2", "3", "4"]:
+#         if choice in ["1", "2", "3", "4"]:
 #             num1 = float(input("Enter the first number: "))
 #             num2 = float(input("Enter the second number: "))
             
@@ -175,3 +175,29 @@
 
 # print(square(1 ,2 ,3 , 4))
 
+# def info(name):
+#     if name == "Aditya Srichandan":
+#         personalinfo1 = {
+#             "Dob": "08-01-2005",
+#             "Name": "Aditya Srichandan",
+#             "Village": "Kanaphasia",
+#             "AADHAR NO": "UGXPS5779f",
+#             "PAN NO": "75558548448"
+#         }
+#         return personalinfo1
+    
+#     elif name == "Kanha Srichandan":  
+#         personalinfo2 = {
+#             "Dob": "08-01-2005",
+#             "Name": "Kanha Srichandan",  
+#             "Village": "Kanaphasia",
+#             "AADHAR NO": "UGXPS5779f",
+#             "PAN NO": "75558548448"
+#         }
+#         return personalinfo2
+#     else:
+        
+#        print( "Please enter your correct name")
+
+# name = str(input("Enter your name: "))
+# print(info(name))

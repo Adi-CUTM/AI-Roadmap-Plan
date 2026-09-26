@@ -18,13 +18,13 @@
 
 # Menu = ["1. Add", "2. Subtract", "3. Multiply", "4. Divide", "5. Exit"]
 
-# print("Please select an operation from the menu below: \n")
-# for option in Menu:
-#     print(option)
-
-# choice = str(input("Please Select an Operation : \n"))
-
 # while True:
+#     print("Please select an operation from the menu below: \n")
+#     for option in Menu:
+#      print(option)
+
+#     choice = str(input("Please Select an Operation : \n"))
+
 
 #     if choice == "5":
 #             print("Exiting the Calculator Program. Goodbye!")
@@ -61,7 +61,6 @@
 #     else:
 #         print("Invalid choice. Please select a valid operation from the menu.\n")
 
-#     choice = str(input("Please Select an Operation : \n"))
     
     
 

@@ -57,7 +57,7 @@
 
 # std1 = student("Aditya" , "D" , 88)
 # print(f"{std1.name} is in {std1.college} and secured {std1.marks}")
-# # print(f"{std1.name} is in section {std1.section}")
+# print(f"{std1.name} is in section {std1.section}")
 
 # std2 = student("Hrithik" , "D" , 89)
 # print(f"{std2.name} is in {std2.college} and secured {std2.marks}")
